@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(180, 174, 174) ;
+}
+
+#header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: rgb(180, 174, 174);
+}
+
+.img {
+    text-align: center;
+    padding: 10px;
+    background-color: green;      
+}
+
+.tela {
+    position: absolute;
+    left: 217px;
+    top: 100px;
+    height: 449px;
+    width: 578px;
+    background: hotpink;
+    border-radius: 10px;
+    text-align: right;    
+}
+
+.scratchpad {
+    background: tomato;
+    height: 40px;
+    position: relative;
+    align-self: auto;
+    top: 91%;
+    border-radius: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p#scratchpad {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#imgFMS {
+    max-height: 100%;
+    width: auto;
+}
+.fundo { 
+    background-color: rgb(172, 30, 30);
+    height: 10%;
+} /* Div para comentários.*/
+
+area#btn{
+    cursor: pointer;       
+}
+
+area#btn:hover {
+    color:  rgb(189, 21, 21);
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FMS ATR 72-600</title>
+    <link rel="stylesheet" href="_style/style.css">
+</head>
+    <header id="header">
+        <h3>Beta Version 1.0</h3>
+    </header>
+<body>
+    <div class="img">
+
+        <img src="_imagens/FMS-ATR.png" alt="Layout FMS" usemap="#mapfms">
+
+        <div class="tela">
+            <div class="scratchpad">
+                <p id="scratchpad">Teste</p>
+            </div>
+
+        </div>
+
+        <map name="mapfms">
+            <area id="btn" shape="circle" coords="67, 654, 22" onclick="insert(1)">
+            <area id="btn" shape="circle" coords="134, 651, 22" onclick="insert(2)">
+            <area id="btn" shape="rect" coords="619, 853, 668, 888" onclick="clean()">
+        </map>
+    </div>
+    <div class="fundo">        
+        <div id="btns">
+            <table>
+                <td><button id="">1</button></td>
+            </table>
+        </div>
+    </div>
+    <script src="_script/script.js"></script>
+</body>
+</html>
